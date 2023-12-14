@@ -1,0 +1,899 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+
+    && .logo{
+        width: 6%;
+    }
+}
+
+nav{
+    position: relative;
+    font-weight: 400;
+    font-size: 0.9em;
+
+    && .dropDownButton{
+        background: transparent;
+        border: none;
+        margin: 1.8em 0;
+    }
+    
+    && .dropDown {
+        background-color: white;
+        position: absolute;
+        left: -1em;
+        min-height: 60vh;
+        display: flex;
+        z-index: 2;
+        color: black;
+        box-shadow: 0px 0.5px 2px;
+        display: flex;
+        && .parent, .child{
+            padding: 1em 1.5em;
+            border-right: 1px solid #d1d7dc;
+
+            & a{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 12em;
+                margin-bottom: 1em;
+                &:hover{
+                    color: #5624d0;
+                }
+            }
+        }
+    }
+}
+
+.searchbar_div {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 7vh;
+    margin: 10px 0px 10px 20px;
+    box-sizing: border-box;
+    width: 47%;
+    border-radius: 25px;
+}
+
+.searchbar_div input {
+    padding: 1.5%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    width: 90%;
+    /* padding: 1%; */
+}
+
+.searchbar_div button {
+    background: none;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.searchbar:focus {
+    outline: none;
+}
+
+.navbar_mainfont {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.butdiv_nav {
+    width: 15%;
+    display: flex;
+    margin-right: 2%;
+    justify-content: space-between;
+}
+
+.logbut_nav {
+    border: 1px solid black;
+    height: 5vh;
+    margin: auto;
+    padding: 2px 10px 2px 10px;
+    cursor: pointer;
+}
+
+.signupbut {
+    background-color: black;
+    color: white;
+}
+
+.logbut_nav h5 {
+    margin-top: 15%;
+    width: fit-content;
+}
+
+.logbut_nav:hover {
+    background-color: rgb(211, 207, 207, 0.5);
+}
+
+.signupbut:hover {
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+
+
+.subsub {
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 9.5%;
+    left: 25%;
+    height: 80vh;
+    box-sizing: border-box;
+}
+
+.subroutename {
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-weight: 400;
+}
+
+.submargin {
+    margin: 3%;
+}
+
+.catsymb {
+    float: right;
+    margin: 3% 5% 3% 3%;
+}
+
+/* Image Carousel */
+.image-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    height: 55vh;
+    width: 88%;
+}
+
+.image-carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.carousel-button:hover {
+    background-color: #333;
+}
+
+.carousel-button.prev {
+    left: 1%;
+}
+
+.carousel-button.next {
+    right: 1%;
+}
+
+/* trusted by div */
+.trustedby_div {
+    width: 100%;
+    background-color: rgb(249, 247, 250);
+    margin: auto;
+    height: 33vh;
+}
+
+.trustedh5 {
+    padding-top: 4%;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(109, 107, 110);
+}
+
+.imgfil {
+    width: 100%;
+    height: 100%;
+}
+
+.mainbrandsimg_div {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.brandsimg_div {
+    /* border: 2px solid black; */
+    /* width: 10%; */
+    height: 6vh;
+}
+
+.learners_div {
+    background-color: rgb(249, 247, 250);
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+.learnh2 {
+    text-align: left;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+
+.mainlearnercard_div {
+    /* border: 2px solid black; */
+    margin: auto;
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learnercard_div {
+    border: 1px solid rgb(178, 175, 175);
+    width: 26%;
+    background-color: white;
+    padding: 25px;
+    text-align: left;
+}
+
+.imgdouble {
+    width: 5%;
+}
+
+.learnertext {
+    font-size: 1.05em;
+}
+
+.learnertext span {
+    font-weight: bolder;
+}
+
+.profile_learner {
+    display: flex;
+    margin-bottom: 8%;
+}
+
+.h4profilename {
+    /* border: 2px solid black; */
+    margin: 0% 0% 0% 2%;
+}
+
+.profileround {
+    border-radius: 50%;
+    background-color: black;
+    width: 10%;
+    height: 4.5vh;
+}
+
+.profileround h5 {
+    margin: 0px 0px 0px 5px;
+    padding-top: 20%;
+    color: white;
+}
+
+.flexy {
+    display: flex;
+}
+
+.playspan {
+    /* border: 2px solid black; */
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(22, 22, 210);
+}
+
+/* become instructor div */
+.becomeinstruc_div {
+    width: 88%;
+    /* border: 2px solid black; */
+    margin: auto;
+    position: relative;
+}
+
+.becomeinstruc_imgdiv {
+    width: 30%;
+    /* border: 2px solid black; */
+    margin: 2% 0% 0% 17%;
+}
+
+.becomeinstruc_contentdiv {
+    /* border: 2px solid black; */
+    /* margin-right: 5%; */
+    text-align: left;
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+
+.becomeinstruc_contentdiv p {
+    font-size: large;
+    font-weight: 400;
+}
+
+.becomeinstruc_contentdiv button {
+    padding: 4%;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+/* footer */
+.footer {
+    background-color: rgb(27, 26, 26);
+    height: 40vh;
+    position: relative;
+    padding-top: 2%;
+}
+
+.footer_Upperdiv {
+    width: 50%;
+    /* border: 2px solid white; */
+    margin-left: 3%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.footer_Upperdiv p {
+    /* margin: 0; */
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+
+.footerbutton {
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.langbut {
+    background-color: inherit;
+    outline: none;
+    color: white;
+    font-size: large;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+.footerlogo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.copyrights {
+    color: white;
+    font-size: small;
+}
+
+/* register Page */
+.register_div {
+    /* border: 2px solid black; */
+    width: 25%;
+    margin: auto;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.form-group input {
+    padding: 5%;
+    margin-bottom: 2%;
+    width: 85%;
+}
+
+.form-check {
+    /* border: 2px solid black; */
+    width: fit-content;
+    display: inline;
+    margin-right: 2%;
+}
+
+.check {
+    text-align: left;
+    margin-left: 2%;
+    height: 20px;
+    width: 20px;
+    accent-color: black;
+}
+
+.form-checknotice {
+    display: inline-block;
+    width: 80%;
+    font-size: medium;
+}
+
+.reg_submit {
+    width: 95%;
+    padding: 4%;
+    font-size: large;
+    font-weight: bold;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.fontsi {
+    font-size: small;
+}
+
+.navdeco {
+    text-align: center;
+    font-size: 0.95em;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+
+.loginspan {
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Login Page */
+.signupdiff_div {
+    border: 1px solid black;
+    display: flex;
+    padding: 0;
+    width: 95%;
+    margin-bottom: 2%;
+    /* height: 6vh; */
+}
+
+.signuph4 {
+    padding-top: 3%;
+    margin: 0;
+    margin-left: 3%;
+    /* border: 1px solid green; */
+}
+
+.logosignup {
+    /* border: 2px solid red; */
+    height: fit-content;
+    margin-left: 2%;
+}
+
+.logogoogle {
+    /* border: 2px solid brown; */
+    margin-top: 20%;
+}
+
+.form-group input::placeholder {
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+}
+
+.loginorg {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-decoration: underline;
+    margin-top: 1%;
+}
+
+/* Category Page */
+.navsub {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+.arrowimg {
+    height: 7vh;
+    /* border: 1px solid black; */
+    /* border-bottom: #ccc; */
+}
+
+.navsub h5 {
+    margin: 1.2em;
+}
+
+.categorypage_maindiv {
+    width: 85%;
+    /* border: 2px solid black; */
+    margin: auto;
+    text-align: left;
+}
+
+.topic_categoryPage {
+    text-transform: capitalize;
+    margin-bottom: 4%;
+}
+
+.h5normal {
+    font-weight: 500;
+}
+
+.mostpop {
+    margin-bottom: 1%;
+}
+
+.line {
+    width: 8%;
+}
+
+.linehr {
+    height: 0.1vh;
+    background-color: black;
+}
+
+.mostpop_div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    /* border: 2px solid red; */
+}
+
+.mostitem_div {
+    /* border: 2px solid black; */
+    margin-right: 1%;
+    height: 45vh;
+    width: 18.4%;
+    position: relative;
+}
+
+.topicitem {
+    margin: 2%;
+}
+
+.topicfont {
+    margin: 0;
+}
+
+.pmargin {
+    margin: 5px 0px 0px 0px;
+    font-size: small;
+    font-weight: 500;
+    color: #ccc;
+}
+
+.rating_div {
+    display: flex;
+    margin: 1%;
+}
+
+.bestsel {
+    padding: 2%;
+    background-color: rgb(225, 225, 59);
+    width: fit-content;
+}
+
+.popmain_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    margin-bottom: 3%;
+}
+
+.poptopics {
+    border: 1px solid black;
+    padding: 1.5%;
+    width: 15%;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.popinstruc_maindiv {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.popinstruc_main {
+    display: flex;
+    border: 1px solid black;
+    width: 24%;
+    padding-bottom: 1%;
+}
+
+.imginstruc_div {
+    /* border: 1px solid black; */
+    /* border-radius: 50%; */
+    width: 30%;
+    height: 10vh;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.immgfil {
+    border-radius: 50%;
+}
+
+.instruc_content {
+    width: 65%;
+    /* border: 1px solid red; */
+}
+
+.allcourses_maindiv {
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.leftcontainer {
+    width: 25%;
+    /* border: 2px solid red; */
+    height: fit-content;
+    padding: 0px 20px 0px 0px;
+}
+
+.ratingdropdown {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.stars_div input[type='radio'] {
+    width: 15px;
+    height: 15px;
+    accent-color: black;
+}
+
+.stars_div input[type='checkbox'] {
+    width: 15px;
+    height: 15px;
+    accent-color: black;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+.rotateflip {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.droplogo_div {
+    /* border: 2px solid black; */
+    height: 5vh;
+    margin-top: 5%;
+}
+
+.stars_div {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.rightcontainer {
+    width: 75%;
+    /* border: 2px solid green; */
+}
+
+.item_maindiv {
+    display: flex;
+    /* border: 2px solid brown; */
+    height: 25vh;
+    margin-bottom: 2%;
+}
+
+.item_imgdiv {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.item_contentdiv {
+    /* border: 2px solid black; */
+    width: 58%;
+    margin-left: 2%;
+}
+
+.padd {
+    margin: 0;
+}
+
+
+/* arrow */
+.container-row {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.arrow-container {
+    position: absolute;
+    /* bottom: 70%; */
+    left: 30%;
+    top: 47%;
+    /* left: 100%; */
+    /* right: -50%; */
+    width: 40vh;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.arrow {
+    position: absolute;
+    top: -2%;
+    left: 45%;
+    transform: translateX(-50%);
+    border: solid;
+    border-width: 10px 10px 0px 10px;
+    border-color: transparent whitesmoke transparent transparent;
+}
+
+/* .additional-content {
+     margin-top: 10px; 
+} */
+
+.container:hover {
+    background-color: #f0f0f0;
+}
+
+.container.hovered {
+    z-index: 1;
+}
+
+.container.hovered .arrow-container {
+    display: block;
+}
+
+.pointlist {
+    padding-inline-start: 8%;
+}
+
+.buttondiv {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+
+.addtocart {
+    width: 215px;
+    padding: 4%;
+    background-color: blueviolet;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.heartbutton_img {
+    width: 13%;
+    height: 5vh;
+}
+
+/* cart page */
+.cartmain_div {
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+.noitemscart_div {
+    border: 1px solid rgb(228, 224, 224);
+    margin-bottom: 3%;
+}
+
+.noitemsimage {
+    /* border: 2px solid red; */
+    width: 20%;
+    margin: auto;
+}
+
+.keepshopping {
+    padding: 1%;
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    margin-bottom: 2%;
+}
+
+.cartparent_div {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.cartitems_div {
+    width: 70%;
+    /* border: 2px solid green; */
+
+}
+
+.cartitem_imgdiv {
+    /* border: 2px solid red; */
+    height: 15vh;
+}
+
+.eachcartitem {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    /* margin-bottom: 3%; */
+}
+
+.cartitem_contentdiv {
+    /* border: 2px solid black; */
+    width: 50%;
+    text-align: left;
+}
+
+.totaldiv {
+    width: 25%;
+    /* border: 2px solid red; */
+    text-align: left;
+}
+
+.checkout_but {
+    width: 100%;
+    padding: 5%;
+    font-size: medium;
+    font-weight: 900;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+.coupontext {
+    width: 65%;
+    padding: 1.5%;
+}
+
+.couponapply {
+    width: 29%;
+    padding: 1.5%;
+    color: white;
+    background-color: blueviolet;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
+}
