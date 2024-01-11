@@ -1,0 +1,852 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+
+    && .log {
+        width: 6%;
+    }
+}
+
+nav {
+    position: relative;
+    font-weight: 400;
+    font-size: 0.9em;
+
+    && .dDB {
+        background: transparent;
+        border: none;
+        margin: 1.8em 0;
+    }
+
+    && .dD {
+        background-color: white;
+        position: absolute;
+        left: -1em;
+        min-height: 60vh;
+        display: flex;
+        z-index: 2;
+        color: black;
+        box-shadow: 0px 0.5px 2px;
+        display: flex;
+
+        && .pt,
+        .cd {
+            padding: 1em 1.5em;
+            border-right: 1px solid #d1d7dc;
+
+            & a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 12em;
+                margin-bottom: 1em;
+
+                &:hover {
+                    color: #5624d0;
+                }
+            }
+        }
+    }
+}
+
+.sbd {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 7vh;
+    margin: 10px 0px 10px 20px;
+    box-sizing: border-box;
+    width: 47%;
+    border-radius: 25px;
+}
+
+.sbd input {
+    padding: 1.5%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    width: 90%;
+}
+
+.sbd button {
+    background: none;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sbr:focus {
+    outline: none;
+}
+
+.nmt {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.bdn {
+    width: 15%;
+    display: flex;
+    margin-right: 2%;
+    justify-content: space-between;
+}
+
+.lbn {
+    border: 1px solid black;
+    height: 5vh;
+    margin: auto;
+    padding: 2px 10px 2px 10px;
+    cursor: pointer;
+}
+
+.sbt {
+    background-color: black;
+    color: white;
+}
+
+.lbn h5 {
+    margin-top: 15%;
+    width: fit-content;
+}
+
+.lbn:hover {
+    background-color: rgb(211, 207, 207, 0.5);
+}
+
+.sbt:hover {
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+
+
+.subsub {
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 9.5%;
+    left: 25%;
+    height: 80vh;
+    box-sizing: border-box;
+}
+
+.subroutename {
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-weight: 400;
+}
+
+.submargin {
+    margin: 3%;
+}
+
+.catsymb {
+    float: right;
+    margin: 3% 5% 3% 3%;
+}
+
+/* Image Carousel */
+.icl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    height: 55vh;
+    width: 88%;
+}
+
+.icl img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cbtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.cbtn:hover {
+    background-color: #333;
+}
+
+.cbtn.pv {
+    left: 1%;
+}
+
+.cbtn.nt {
+    right: 1%;
+}
+
+/* trusted by div */
+.tyd {
+    width: 100%;
+    background-color: rgb(249, 247, 250);
+    margin: auto;
+    height: 33vh;
+}
+
+.tdh {
+    padding-top: 4%;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(109, 107, 110);
+}
+
+.if {
+    width: 100%;
+    height: 100%;
+}
+
+.mbid {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.bid {
+    height: 6vh;
+}
+
+.lsd {
+    background-color: rgb(249, 247, 250);
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+.lh {
+    text-align: left;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+
+.mlcd {
+    margin: auto;
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lcd {
+    border: 1px solid rgb(178, 175, 175);
+    width: 26%;
+    background-color: white;
+    padding: 25px;
+    text-align: left;
+}
+
+.idb {
+    width: 5%;
+}
+
+.lrt {
+    font-size: 1.05em;
+}
+
+.lrt span {
+    font-weight: bolder;
+}
+
+.pfl {
+    display: flex;
+    margin-bottom: 8%;
+}
+
+.hpfn {
+    margin: 0% 0% 0% 2%;
+}
+
+.pfr {
+    border-radius: 50%;
+    background-color: black;
+    width: 10%;
+    height: 4.5vh;
+}
+
+.pfr h5 {
+    margin: 0px 0px 0px 5px;
+    padding-top: 20%;
+    color: white;
+}
+
+.fy {
+    display: flex;
+}
+
+.psp {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(22, 22, 210);
+}
+
+/* become instructor div */
+.bid {
+    width: 88%;
+    margin: auto;
+    position: relative;
+}
+
+.biid {
+    width: 30%;
+    margin: 2% 0% 0% 17%;
+}
+
+.bicd {
+    text-align: left;
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+
+.bicd p {
+    font-size: large;
+    font-weight: 400;
+}
+
+.bicd button {
+    padding: 4%;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+/* footer */
+.ft {
+    background-color: rgb(27, 26, 26);
+    height: 40vh;
+    position: relative;
+    padding-top: 2%;
+}
+
+.ftUp {
+    width: 50%;
+    margin-left: 3%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.ftUp p {
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+
+.ftb {
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.langbut {
+    background-color: inherit;
+    outline: none;
+    color: white;
+    font-size: large;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+.ftl {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.cr {
+    color: white;
+    font-size: small;
+}
+
+/* register Page */
+.rgd {
+    width: 25%;
+    margin: auto;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.fgp input {
+    padding: 5%;
+    margin-bottom: 2%;
+    width: 85%;
+}
+
+.fck {
+    width: fit-content;
+    display: inline;
+    margin-right: 2%;
+}
+
+.chk {
+    text-align: left;
+    margin-left: 2%;
+    height: 20px;
+    width: 20px;
+    accent-color: black;
+}
+
+.fcn {
+    display: inline-block;
+    width: 80%;
+    font-size: medium;
+}
+
+.rst {
+    width: 95%;
+    padding: 4%;
+    font-size: large;
+    font-weight: bold;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.fts {
+    font-size: small;
+}
+
+.nd {
+    text-align: center;
+    font-size: 0.95em;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+
+.lsn {
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Login Page */
+.sdd {
+    border: 1px solid black;
+    display: flex;
+    padding: 0;
+    width: 95%;
+    margin-bottom: 2%;
+}
+
+.sph {
+    padding-top: 3%;
+    margin: 0;
+    margin-left: 3%;
+}
+
+.lsp {
+    height: fit-content;
+    margin-left: 2%;
+}
+
+.lg {
+    margin-top: 20%;
+}
+
+.fgp input::placeholder {
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+}
+
+.lo {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-decoration: underline;
+    margin-top: 1%;
+}
+
+/* Category Page */
+.ns {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+.ai {
+    height: 7vh;
+}
+
+.ns h5 {
+    margin: 1.2em;
+}
+
+.cpmd {
+    width: 85%;
+    margin: auto;
+    text-align: left;
+}
+
+.tcP {
+    text-transform: capitalize;
+    margin-bottom: 4%;
+}
+
+.h5n {
+    font-weight: 500;
+}
+
+.mpp {
+    margin-bottom: 1%;
+}
+
+.ln {
+    width: 8%;
+}
+
+.lnhr {
+    height: 0.1vh;
+    background-color: black;
+}
+
+.mpdiv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+
+.midiv {
+    margin-right: 1%;
+    height: 45vh;
+    width: 18.4%;
+    position: relative;
+}
+
+.ti {
+    margin: 2%;
+}
+
+.tf {
+    margin: 0;
+}
+
+.pmg {
+    margin: 5px 0px 0px 0px;
+    font-size: small;
+    font-weight: 500;
+    color: #ccc;
+}
+
+.rtdiv {
+    display: flex;
+    margin: 1%;
+}
+
+.bs {
+    padding: 2%;
+    background-color: rgb(225, 225, 59);
+    width: fit-content;
+}
+
+.pmdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.ptp {
+    border: 1px solid black;
+    padding: 1.5%;
+    width: 15%;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.pimdiv {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.pim {
+    display: flex;
+    border: 1px solid black;
+    width: 24%;
+    padding-bottom: 1%;
+}
+
+.iidiv {
+    width: 30%;
+    height: 10vh;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.if {
+    border-radius: 50%;
+}
+
+.inc {
+    width: 65%;
+}
+
+.acmd {
+    display: flex;
+}
+
+.lc {
+    width: 25%;
+    height: fit-content;
+    padding: 0px 20px 0px 0px;
+}
+
+.rd {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.sd input[type='radio'] {
+    width: 15px;
+    height: 15px;
+    accent-color: black;
+}
+
+.sd input[type='checkbox'] {
+    width: 15px;
+    height: 15px;
+    accent-color: black;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+.rotateflip {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.dld {
+    height: 5vh;
+    margin-top: 5%;
+}
+
+.sd {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.rc {
+    width: 75%;
+}
+
+.imdiv {
+    display: flex;
+    height: 25vh;
+    margin-bottom: 2%;
+}
+
+.iidiv {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.icdiv {
+    width: 58%;
+    margin-left: 2%;
+}
+
+.pd {
+    margin: 0;
+}
+
+
+/* arrow */
+.container-row {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.arrow-container {
+    position: absolute;
+    /* bottom: 70%; */
+    left: 30%;
+    top: 47%;
+    /* left: 100%; */
+    /* right: -50%; */
+    width: 40vh;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.arrow {
+    position: absolute;
+    top: -2%;
+    left: 45%;
+    transform: translateX(-50%);
+    border: solid;
+    border-width: 10px 10px 0px 10px;
+    border-color: transparent whitesmoke transparent transparent;
+}
+
+.container:hover {
+    background-color: #f0f0f0;
+}
+
+.container.hovered {
+    z-index: 1;
+}
+
+.container.hovered .arrow-container {
+    display: block;
+}
+
+.pl {
+    padding-inline-start: 8%;
+}
+
+.bdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.atc {
+    width: 215px;
+    padding: 4%;
+    background-color: blueviolet;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.hbimg {
+    width: 13%;
+    height: 5vh;
+}
+
+/* cart page */
+.ctdiv {
+    width: 80%;
+    margin: auto;
+}
+
+.nicdiv {
+    border: 1px solid rgb(228, 224, 224);
+    margin-bottom: 3%;
+}
+
+.nii {
+    width: 20%;
+    margin: auto;
+}
+
+.ksg {
+    padding: 1%;
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    margin-bottom: 2%;
+}
+
+.ctpdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.ctidiv {
+    width: 70%;
+}
+
+.ctiimgdiv {
+    height: 15vh;
+}
+
+.eci {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cticdiv {
+    width: 50%;
+    text-align: left;
+}
+
+.tldiv {
+    width: 25%;
+    text-align: left;
+}
+
+.cktbut {
+    width: 100%;
+    padding: 5%;
+    font-size: medium;
+    font-weight: 900;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+.cptxt {
+    width: 65%;
+    padding: 1.5%;
+}
+
+.cpap {
+    width: 29%;
+    padding: 1.5%;
+    color: white;
+    background-color: blueviolet;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
+}
